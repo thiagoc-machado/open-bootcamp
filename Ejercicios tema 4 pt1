@@ -1,0 +1,12 @@
+public class Main {
+    public static void main (String[] args){
+       int numerol = 1;
+
+       if (numerol < 0)
+           System.out.println (numerol + " es negativo");
+       else if (numerol == 0)
+           System.out.println (numerol + " es zero");
+       else
+           System.out.println (numerol + " es positivo");
+    }
+}
